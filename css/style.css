@@ -1,0 +1,15 @@
+/* formatting avatar in nav bar */
+#avatar {width: 100px;}
+
+.customNav {width: 100%;}
+
+#name {padding: 0px 30px;
+font-size: 2em;}
+
+.navbar-nav{
+    margin-left: auto;
+    margin-right: 0 !important;
+    padding-right: 1.5em;
+    gap: 1.5em;
+    font-size: 1.3em;
+  }
