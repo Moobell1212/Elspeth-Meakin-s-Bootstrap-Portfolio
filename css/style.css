@@ -1,15 +1,29 @@
 /* formatting avatar in nav bar */
 #avatar {width: 100px;}
 
-.customNav {width: 100%;}
+#customnav {background-color: rgba(0, 217, 255, 0.8);}
+
+.customNav {width: 100%;
+}
 
 #name {padding: 0px 30px;
 font-size: 2em;}
 
 .navbar-nav{
-    margin-left: auto;
-    margin-right: 0 !important;
-    padding-right: 1.5em;
-    gap: 1.5em;
-    font-size: 1.3em;
-  }
+  margin-left: auto;
+  margin-right: 0 !important;
+  padding-right: 1.5em;
+  gap: 1.5em;
+  font-size: 1.3em;}
+
+.herobanner {height: 400px;
+  background-image: url(../images/banner.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 2em;}
+
+#banneratt{position: absolute;
+  bottom: 10em;
+  left: 1em;}
