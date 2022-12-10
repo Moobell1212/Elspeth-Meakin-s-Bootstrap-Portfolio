@@ -24,6 +24,8 @@ font-size: 2em;}
   text-align: center;
   padding: 2em;}
 
+#avatarphoto {width: 200px;}
+
 #banneratt{position: absolute;
   bottom: 10em;
   left: 1em;}
