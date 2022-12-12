@@ -29,24 +29,17 @@ justify-content: center;}
 height: auto;
 }
 
-.display-4 {padding-left: 20px;
+.maintext {padding-left: 20px;
 font-size: 3em;}
 
-.lead{margin-top: 30px;}
+.subheading {margin-top: 30px;}
 
 #banneratt {font-size: 10px;}
 
-.card-img-top {
-width: 100%;
-height: auto;
-overflow: hidden;
-}
+.btn {margin: 5px;}
 
-.btn {display: inline;}
+.row {margin: 20px 5% 20px 5%;}
 
-.card{display:flex;
-  align-items: center;}
+.col-sm-4{padding-bottom: 20px;}
 
-.row {margin: 50px 3%;}
-
-.col-sm-4 {margin-top: 20px;}
+#jumbobottom{display: flex;}
