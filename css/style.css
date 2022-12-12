@@ -3,8 +3,6 @@ body {background-color: rgba(0, 255, 242, 0.05);}
 
 #avatar {width: 80px;}
 
-#customnav {background-color: rgba(0, 217, 255, 0.8);}
-
 .customNav {width: 100%;
 }
 
@@ -12,39 +10,21 @@ body {background-color: rgba(0, 255, 242, 0.05);}
 font-size: 2em;
 }
 
-.navbar-nav{
-  margin-left: auto;
-  margin-right: 0 !important;
-  padding-right: 1.5em;
-  gap: 1.5em;
-  font-size: 1.3em;}
+.jumbotron {display: flex;
+padding: 30px;
+background-image: url(../images/banner.jpg);
+background-size: cover;}
 
-#aboutme {height: 400px;
-  background-image: url(../images/banner.jpg);
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  padding: 2em;
-  position: relative;
-}
+#picture, #jumbotext {display: inline;}
 
-#picture {width: 20%;
-text-align: center;}
-
-#herotext{flex-wrap: wrap;}
-
-#avatarphoto {width: 200px;
+#picture {width: 200px;
 margin: 0px;}
 
-#banneratt{position: absolute;
-  bottom: 10px;
-  left: 10px;
-  font-size: 10px;}
+#banneratt {font-size: 10px;}
 
-.card-img-top {height: 200px;
+.card-img-top {
 width: 100%;
-height: inherit;
+height: auto;
 overflow: hidden;
 }
 
