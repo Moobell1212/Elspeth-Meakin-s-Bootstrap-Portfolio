@@ -8,7 +8,7 @@ font-size: 2em;
 .navbar-nav {margin-left: auto;
 margin-right: 0 !important;}
 
-.jumbotron {
+.jumbotron, #skillsaboutme {
 padding: 30px;
 background-image: url(../images/banner.jpg);
 background-size: cover;}
