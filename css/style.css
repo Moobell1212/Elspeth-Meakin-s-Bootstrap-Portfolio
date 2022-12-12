@@ -1,12 +1,16 @@
 /* formatting avatar in nav bar */
-body {background-color: rgba(0, 255, 242, 0.05);}
+body {background-color: rgba(0, 255, 242, 0.05);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
 
 #name {padding: 0px 10px;
 font-size: 2em;
 }
 
 .navbar-nav {margin-left: auto;
-margin-right: 0 !important;}
+margin-right: 0 !important;
+font-size: 20px;}
 
 .jumbotron, #skillsaboutme {
 padding: 30px;
