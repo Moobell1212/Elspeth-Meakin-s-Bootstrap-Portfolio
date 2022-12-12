@@ -43,3 +43,8 @@ font-size: 3em;}
 .col-sm-4{padding-bottom: 20px;}
 
 #jumbobottom{display: flex;}
+
+#contact {padding: 20px;
+display: flex;
+align-items: center;
+gap: 20px;}
