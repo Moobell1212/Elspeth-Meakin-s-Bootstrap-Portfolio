@@ -1,10 +1,8 @@
 /* formatting avatar in nav bar */
 body {background-color: rgba(0, 255, 242, 0.05);}
 
-#avatar {width: 80px;}
-
 #name {padding: 0px 10px;
-font-size: 2.5em;
+font-size: 2em;
 }
 
 .navbar-nav {margin-left: auto;
@@ -16,17 +14,25 @@ background-image: url(../images/banner.jpg);
 background-size: cover;}
 
 .jumbocontainer {display: flex;
-  display: block;
+  flex-direction: row;
 }
 
-.picture, #mainjumbotext {display: inline;}
+#upperjumbotron{display: flex;
+align-items: center;}
 
-#mainjumbotext {width: 80%;}
+#picturecontainer {width: 30%;
+  min-width: 100px;
+  max-width: 200px;
+justify-content: center;}
 
-#picture {
-width: 200px;
-margin: 0px;
+#picture {width: 100%;
+height: auto;
 }
+
+.display-4 {padding-left: 20px;
+font-size: 3em;}
+
+.lead{margin-top: 30px;}
 
 #banneratt {font-size: 10px;}
 
@@ -36,11 +42,11 @@ height: auto;
 overflow: hidden;
 }
 
-.work{margin-top: 10px;}
-
 .btn {display: inline;}
 
 .card{display:flex;
   align-items: center;}
 
 .row {margin: 50px 3%;}
+
+.col-sm-4 {margin-top: 20px;}
