@@ -35,7 +35,10 @@ height: auto;
 }
 
 #maintext {padding-left: 20px;
-font-size: 3em;}
+font-size: 3em;
+}
+
+#maintext h1 {margin-bottom:25px;}
 
 .subheading {margin-top: 30px;}
 
