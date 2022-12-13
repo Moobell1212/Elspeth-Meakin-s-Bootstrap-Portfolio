@@ -4,7 +4,7 @@ body {background-color: rgba(0, 255, 242, 0.05);
   line-height: 1.5;
 }
 
-#name {padding: 0px 10px;
+#name {padding-left: 10px;
 font-size: 2em;
 }
 
@@ -50,5 +50,13 @@ font-size: 3em;}
 
 #contact {padding: 20px;
 display: flex;
-align-items: center;
-gap: 20px;}
+gap: 20px;
+font-size: 2em;}
+
+#contactme{margin-bottom: 0px;
+align-self: flex-end;
+padding-bottom: 5px;}
+
+.contlink:hover {color: black;
+background: rgb(0, 238, 255);
+box-shadow: 2px 5px 4px 5px rgb(36, 188, 199);}
