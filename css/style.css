@@ -4,14 +4,17 @@ body {background-color: rgba(0, 255, 242, 0.05);
   line-height: 1.5;
 }
 
+/* formatting name in nav bar */
 #name {padding-left: 10px;
 font-size: 2em;
 }
 
+/* formatting the navigation in the nav bar */
 .navbar-nav {margin-left: auto;
 margin-right: 0 !important;
 font-size: 20px;}
 
+/* formatting the top jumbotron */
 .jumbotron, #skillsaboutme {
 padding: 30px;
 background-image: url(../images/banner.jpg);
@@ -21,6 +24,7 @@ background-size: cover;}
   flex-direction: row;
 }
 
+/* formatting the top half of the jumbotron */
 #upperjumbotron{display: flex;
 align-items: center;}
 
@@ -29,6 +33,7 @@ align-items: center;}
   max-width: 200px;
 justify-content: center;}
 
+/* formatting the profile picture */
 #picture {width: 100%;
 height: auto;
 }
@@ -38,25 +43,33 @@ font-size: 3em;}
 
 .subheading {margin-top: 30px;}
 
+/* formatting the attribute for the banner */
 #banneratt {font-size: 10px;}
 
+/* adding gaps between card buttons */
 .btn {margin: 5px;}
 
+/* adding margins to the work cards */
 .row {margin: 20px 5% 20px 5%;}
 
+/* adding padding to the bottom of the work cards individually */
 .col-sm-4{padding-bottom: 20px;}
 
+/* putting the skills and background section on the same row */
 #jumbobottom{display: flex;}
 
+/* formatting the contact footer */
 #contact {padding: 20px;
 display: flex;
 gap: 20px;
 font-size: 2em;}
 
+/* formatting the contact me text in the contact footer */
 #contactme{margin-bottom: 0px;
 align-self: flex-end;
 padding-bottom: 5px;}
 
+/* hover effects for the contact buttons */
 .contlink:hover {color: black;
 background: rgb(0, 238, 255);
 box-shadow: 2px 5px 4px 5px rgb(36, 188, 199);}
