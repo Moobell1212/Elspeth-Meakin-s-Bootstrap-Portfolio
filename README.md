@@ -36,8 +36,6 @@ There is a footer section with contact buttons which display hover effects.
 
 <img src="./images/contactlinks.png">
 
-
-
 ## License
 
 MIT
