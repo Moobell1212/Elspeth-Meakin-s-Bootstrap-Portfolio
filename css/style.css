@@ -16,13 +16,9 @@ font-size: 20px;}
 
 /* formatting the top jumbotron */
 .jumbotron, #skillsaboutme {
-padding: 30px;
+padding: 70px 30px;
 background-image: url(../images/banner.jpg);
 background-size: cover;}
-
-.jumbocontainer {display: flex;
-  flex-direction: row;
-}
 
 /* formatting the top half of the jumbotron */
 #upperjumbotron{display: flex;
@@ -38,10 +34,12 @@ justify-content: center;}
 height: auto;
 }
 
-.maintext {padding-left: 20px;
+#maintext {padding-left: 20px;
 font-size: 3em;}
 
 .subheading {margin-top: 30px;}
+
+p, li {font-size: 1.2em;}
 
 /* formatting the attribute for the banner */
 #banneratt {font-size: 10px;}
@@ -56,13 +54,14 @@ font-size: 3em;}
 .col-sm-4{padding-bottom: 20px;}
 
 /* putting the skills and background section on the same row */
-#jumbobottom{display: flex;}
+#jumbobottom{display: flex;
+}
 
 /* formatting the contact footer */
 #contact {padding: 20px;
 display: flex;
 gap: 20px;
-font-size: 2em;}
+font-size: 1.6em;}
 
 /* formatting the contact me text in the contact footer */
 #contactme{margin-bottom: 0px;
@@ -73,3 +72,21 @@ padding-bottom: 5px;}
 .contlink:hover {color: black;
 background: rgb(0, 238, 255);
 box-shadow: 2px 5px 4px 5px rgb(36, 188, 199);}
+
+/* media quieries */
+@media screen and (min-width:1200px) {
+  .col-sm{padding: 0px 7%;}
+}
+
+@media screen and (max-width:600px) {
+  #name{font-size: 1.5em;}
+  .jumbocontainer{display: block;}
+  #contact {display: block;}
+}
+
+@media screen and (max-width:500px) {
+  #name{font-size: 1em;}
+  #upperjumbotron{display: block;}
+  #maintext{padding-left: 0px;}
+  #picture{margin-bottom: 20px;}
+}
